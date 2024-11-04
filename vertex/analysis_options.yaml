@@ -1,0 +1,21 @@
+include: package:lint/strict.yaml # For production apps
+
+analyzer:
+
+  exclude:
+    - "build/**"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**.g.dart"
+    - "**/firebase_options.dart"
+
+  language:
+    strict-casts: false
+    strict-inference: true
+    strict-raw-types: true
+
+linter:
+  rules:
+    always_use_package_imports: false
+    avoid_dynamic_calls: false
+    sort_pub_dependencies: false
