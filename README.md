@@ -34,9 +34,9 @@ To run this project locally, make sure you have the following:
     flutter run
 
 ### 🛠️ Tech Stack
-Flutter: For the core application development and cross-platform support.
-Vertex AI: Provides machine learning capabilities via pre-trained models.
-Google Cloud Services: Manages and deploys AI models seamlessly for mobile integration.
+- Flutter: For the core application development and cross-platform support.
+- Vertex AI: Provides machine learning capabilities via pre-trained models.
+- Google Cloud Services: Manages and deploys AI models seamlessly for mobile integration.
 
 ## Preview
 https://github.com/user-attachments/assets/9977dcb2-b305-44be-87ea-2e31c8ec4a21
